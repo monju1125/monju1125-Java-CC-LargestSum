@@ -14,21 +14,19 @@ public class LargestSum {
         List<Integer> numbers = new ArrayList<>(nums);
         int[] numsInArray = new int[numbers.size()];
         
-        int previousSum = 0;
-        int currentSum =0; 
+        int largest = Integer.MIN_VALUE;
+        int secondLargest =Integer.MIN_VALUE; 
         
-        for(int i =0; i<numsInArray.length-1; i++) {
-
-                for(int j = 1; j<numsInArray.length; j++){
-                    currentSum = numsInArray[i] + numsInArray[j];
-                    if (currentSum < previousSum) {
-                        currentSum = previousSum;
-                    }
-                    else previousSum = currentSum;
-                }
+        for(int num : nums) {
+            if(num > largest){
+                secondLargest = largest;
+                largest = num;
+            } else if (num > secondLargest){
+                secondLargest = num;
+            }
         }
 
-        return previousSum;
+        return largest + secondLargest;
 
     }
 }
