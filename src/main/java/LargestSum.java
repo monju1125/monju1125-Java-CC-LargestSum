@@ -28,7 +28,7 @@ public class LargestSum {
                 }
         }
 
-        return currentSum;
+        return previousSum;
 
     }
 }
