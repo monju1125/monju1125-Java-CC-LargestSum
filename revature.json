@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/LargestSumTest.java",
+      "testCases": [
+        {
+          "methodName": "sumTest1",
+          "label": "Finds largest adjacent sum in increasing list",
+          "description": "Verifies that the method returns 7 as the largest sum of adjacent numbers (3+4) in the list [0,1,2,3,4]."
+        },
+        {
+          "methodName": "sumTest2",
+          "label": "Handles all-zero list",
+          "description": "Checks that the method returns 0 as the largest adjacent sum in an all-zero list."
+        },
+        {
+          "methodName": "sumTest3",
+          "label": "Finds largest adjacent sum in mixed list",
+          "description": "Verifies that the method returns 9 as the largest adjacent sum (4+5) in the list [0,4,2,5,0]."
+        },
+        {
+          "methodName": "sumTest4",
+          "label": "Finds largest adjacent sum in list with duplicates",
+          "description": "Ensures that the method returns 10 as the largest adjacent sum (5+5) in the list [5,4,2,5,0]."
+        }
+      ]
+    }
+  ]
+}
