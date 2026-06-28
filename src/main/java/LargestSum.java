@@ -11,9 +11,7 @@ public class LargestSum {
      * @return the largest possible sum of separate numbers from nums.
      */
     public int bigSum(List<Integer> nums){
-        List<Integer> numbers = new ArrayList<>(nums);
-        int[] numsInArray = new int[numbers.size()];
-        
+       
         int largest = Integer.MIN_VALUE;
         int secondLargest =Integer.MIN_VALUE; 
         
