@@ -24,11 +24,11 @@ public class LargestSum {
                     if (currentSum < previousSum) {
                         currentSum = previousSum;
                     }
-                    else currentSum = currentSum;
+                    else previousSum = currentSum;
                 }
         }
 
         return currentSum;
-        
+
     }
 }
