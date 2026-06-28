@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="LargestSumTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="LargestSumTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="LargestSumTest" name="sumTest1" time="0.006"/>
+  <testcase classname="LargestSumTest" name="sumTest1" time="0.001"/>
   <testcase classname="LargestSumTest" name="sumTest2" time="0"/>
   <testcase classname="LargestSumTest" name="sumTest3" time="0"/>
   <testcase classname="LargestSumTest" name="sumTest4" time="0"/>
